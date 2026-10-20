@@ -1,0 +1,22 @@
+@media (min-width: 1000px) {
+    #section-1 {
+    /* min-height: 90vh;
+    padding: 30px 20px 0 20px;
+    background-color: var(--cor-2);
+    display: flex;
+    align-items: center;
+    row-gap: 20px; */
+
+    flex-direction: row;
+    justify-content: space-evenly;
+    column-gap: 50px;
+    }
+
+    #section-1-container-1-title {
+        font-size: 7rem;
+    }
+
+    #section-1-img {
+        width: 450px;
+    }
+}
