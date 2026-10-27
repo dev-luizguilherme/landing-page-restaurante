@@ -31,7 +31,6 @@ html {
 
 body {
     font-family: var(--fonte-textos);
-    height: 3000px;
 }
 
 header {
@@ -190,4 +189,132 @@ header {
 #button-whatsapp:hover {
     transform: translateY(-10px);
     box-shadow: 0 0 10px var(--cor-5);
+}
+
+#section-2 {
+    background-color: var(--cor-2);
+    padding: 80px 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+#section-2 > h3 {
+    color: var(--cor-5);
+    text-transform: uppercase;
+}
+
+#section-2 > h2 {
+    font-size: 4.5rem;
+    font-family: var(--fonte-titulos);
+    font-weight: 500;
+}
+
+#section-2 > p {
+    font-size: 1.5rem;
+    color: var(--cor-4);
+}
+
+#container-cards {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.card {
+    display: flex;
+    column-gap: 10px;
+    background-color: var(--cor-1);
+    border: 1px solid var(--cor-3);
+    border-radius: 10px;
+}
+
+.card-img {
+    min-width: 100px;
+    height: 100px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding-right: 10px;
+}
+
+.card-text h4 {
+    font-size: 2rem;
+    font-family: var(--fonte-titulos);
+    color: var(--cor-4);
+}
+
+.card-text p {
+    font-size: 1.5rem;
+    color: var(--cor-3);
+}
+
+.card:nth-child(1) .card-img {
+    background-image: url(../imgs/cards-cardapio/1.jpg);
+}
+
+.card:nth-child(2) .card-img {
+    background-image: url(../imgs/cards-cardapio/2.jpg);
+}
+
+.card:nth-child(3) .card-img {
+    background-image: url(../imgs/cards-cardapio/3.jpg);
+}
+
+.card:nth-child(4) .card-img {
+    background-image: url(../imgs/cards-cardapio/4.jpg);
+}
+
+.card:nth-child(5) .card-img {
+    background-image: url(../imgs/cards-cardapio/5.jpg);
+}
+
+.card:nth-child(6) .card-img {
+    background-image: url(../imgs/cards-cardapio/6.jpg);
+}
+
+.card:nth-child(7) .card-img {
+    background-image: url(../imgs/cards-cardapio/7.jpg);
+}
+
+.card:nth-child(8) .card-img {
+    background-image: url(../imgs/cards-cardapio/8.jpg);
+}
+
+.card:nth-child(9) .card-img {
+    background-image: url(../imgs/cards-cardapio/9.jpg);
+}
+
+.card:nth-child(10) .card-img {
+    background-image: url(../imgs/cards-cardapio/10.jpg);
+}
+
+.card:nth-child(11) .card-img {
+    background-image: url(../imgs/cards-cardapio/11.jpg);
+}
+
+.card:nth-child(12) .card-img {
+    background-image: url(../imgs/cards-cardapio/12.jpg);
+}
+
+.card:nth-child(13) .card-img {
+    background-image: url(../imgs/cards-cardapio/13.jpg);
+}
+
+.card:nth-child(14) .card-img {
+    background-image: url(../imgs/cards-cardapio/14.jpg);
+}
+
+.card:nth-child(15) .card-img {
+    background-image: url(../imgs/cards-cardapio/15.jpg);
 }
