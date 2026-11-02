@@ -40,9 +40,11 @@ header {
     height: 8vh;
     min-height: 70px;
     background-color: var(--cor-1);
+    border-bottom: 1px solid var(--cor-5);
 
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 #header-logo {
@@ -178,6 +180,7 @@ header {
     background-color: var(--cor-5);
     padding: 15px;
     border-radius: 50%;
+    border: 1px solid var(--cor-1);
 
     transition: 0.1s;
 }
@@ -193,7 +196,7 @@ header {
 
 #section-2 {
     background-color: var(--cor-2);
-    padding: 80px 20px 0 20px;
+    padding: 80px 20px 80px 20px;
     display: flex;
     flex-direction: column;
     row-gap: 15px;
@@ -317,4 +320,179 @@ header {
 
 .card:nth-child(15) .card-img {
     background-image: url(../imgs/cards-cardapio/15.jpg);
+}
+
+#footer {
+    padding-top: 75px;
+    background-color: var(--cor-1);
+}
+
+#footer-container-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+    padding: 0 10px 75px 10px;
+}
+
+#footer-container-1 > p:nth-of-type(1) {
+    color: var(--cor-5);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#footer-container-1 > h2 {
+    font-size: 4rem;
+    font-family: var(--fonte-titulos);
+    font-weight: 500;
+    text-align: center;
+}
+
+#footer-button-whatsapp {
+    display: flex;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    text-decoration: none;
+    background-color: var(--cor-5);
+}
+
+#footer-button-whatsapp img {
+    transition: 0.1s;
+}
+
+#footer-button-whatsapp:hover img {
+    transform: scale(1.1);
+}
+
+#footer-button-whatsapp p {
+    color: var(--cor-1);
+    font-size: 2rem;
+}
+
+#footer-container-1-1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+#footer-container-1-1-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+}
+
+#footer-container-1-1-1 p {
+    font-size: 3rem;
+    font-family: var(--fonte-titulos);
+}
+
+#footer-container-1-1-1 a {
+    color: var(--cor-3);
+    font-size: 1.5rem;
+}
+
+#footer-container-1-1-1 a:hover {
+    text-decoration: none;
+}
+
+iframe {
+    border-radius: 20px;
+    width: 90vw;
+    max-width: 550px;
+}
+
+#footer-container-1 {
+    min-height: 100vh;
+}
+
+#footer-container-1-1-2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+
+#footer-container-1-1-2 > p {
+    color: var(--cor-5);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.social-contact {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.social-contact div:nth-of-type(1) {
+    background-color: var(--cor-2);
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-contact div:nth-of-type(1) img {
+    width: 20px;
+}
+
+.social-contact h3 {
+    font-size: 1.8rem;
+}
+
+.social-contact a {
+    font-size: 1.5rem;
+    color: var(--cor-5);
+}
+
+.social-contact a:hover {
+    text-decoration: none;
+}
+
+#footer-container-1-1-2 hr {
+    width: 90%;
+    align-self: center;
+    border: 1px solid var(--cor-2);
+}
+
+#footer-container-2 {
+    background-color: var(--cor-5);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding: 20px 0;
+}
+
+#footer-container-2 p,
+#footer-container-2 p a {
+    font-size: 2rem;
+    color: var(--cor-1);
+}
+
+#footer-container-2 p a:hover {
+    text-decoration: none;
+}
+
+#footer-container-2 div {
+    display: flex;
+    column-gap: 10px
+}
+
+#footer-container-2 div a img {
+    width: 30px;
+}
+
+#footer-container-2 div a img:hover {
+    opacity: 0.8;
 }
